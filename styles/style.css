@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --cprima: #000;
+    --csecun: #2F3848;
+    --cterc: #F1B920;
+    --cquar: #ECF2FB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    background-color: var(--cquar);
+    color: var(--cprima)
+}
+
+strong{
+    color: var(--csecun);
+}
+
+
+.botoes:hover {
+    background-color: green;
+}
+
+
+
+
+.principal {
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+
+}
+
+.apresentacao__conteudo {  
+    display: flex;
+    grid-template-columns: 50% 50%;
+    width: 100vw;
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+/* main */
+
+
+.faixa__topo {
+    
+    background: #D9D9D9;
+    border: 1px solid #2F3848;
+    width: 100vw;
+    height: 6rem;
+    margin-bottom: 4rem;
+}
+
+
+.apresentacao__geral {
+    width: 50vw;
+    align-items: center;
+    
+    
+}
+
+.apresentacao__conteudo__titulo {
+    text-align: center;
+    font-size: 3.12rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    
+    
+}
+
+.baixe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+.botoes {
+    
+    background-color: var(--csecun);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    border-radius: 6.25rem;
+    width: 10.12em;
+    height: 2.4em;
+    color: var(--cterc);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 3.4rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    
+}
+
+.apresentacao__conteudo__botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.apresentacao__conteudo__cima {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+.apresentacao_conteudo_baixo {
+    
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.apresentacao_conteudo_aviso {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    margin-top: 3rem; 
+
+}
+
+.apresenta__celular {
+    width: 20%;
+    height: 25%;
+         
+}
+
+
+.segunda__parte {
+    margin-top: 4rem;
+    background: #D9D9D9;
+    border: 1px solid #2F3848;
+    width: 100vw;
+    height: 97px;
+    
+    text-align: center;
+}
+
+.segunda__parte__texto {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 1rem;
+    
+}
+
+
+
+
+.terceira__parte {
+   background: #2F3848;
+   display: flex;
+   width: 100vw;
+   
+   
+   grid-template-columns: 50% 50%;
+   
+   
+   
+   
+
+}
+
+.terceira__parte__main {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #ECEDFB;
+    font-size: 60px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    white-space: pre;
+    
+
+
+}
+
+.terceira__parte__sub {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #ECEDFB;
+    display: flex;
+    margin-bottom: 3rem;
+    
+
+
+}
+
+
+.terceira__parte__imagem {
+    width: 30%;
+    height: 30%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+    margin-left: 5em;
+    align-items: center;
+    
+  
+}
+
+
+
+.lista__bolas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+         
+}
+
+.circulo {
+    
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2F3848;
+    border: 3px solid #00E676;  
+    margin: auto; 
+    margin: 1rem;
+    justify-content: center;
+    text-align: center;   
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+
+    
+}
+
+.botaum {
+    
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    line-height: 18px;
+       
+  }
+
+
+
+
+.quarta__parte {
+    
+    background: #D9D9D9;
+    width: 100vw;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.texto__quarta {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+    
+    
+    
+}
+
+
+
+.botoes2quarta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botoes2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.baixe2 {
+    text-align: center;
+    background-color: var(--csecun);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    border-radius: 6.25rem;
+    width: 12.12rem;
+    height: 55px;
+    color: var(--cterc);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+
+.baixe3 {
+    text-align: center;
+    background-color: var(--csecun);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    border-radius: 6.25rem;
+    width: 12.12rem;
+    height: 55px;
+    color: var(--cterc);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+
+.botoes2:hover {
+    background-color: green;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .principal {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        width: 100vw;
+           
+    }
+    
+    .apresentacao__geral {
+        display: block;
+        width: 100vw
+              
+        
+    }
+    
+    .apresentacao__conteudo {
+        display: block;
+        text-align: center;  
+        width: 100vw;     
+    }
+    
+    .apresentacao__conteudo__titulo {
+        width: 100vw;
+        text-align: center;
+        justify-content: center;
+        font-size: 45px;
+        margin-bottom: 1rem;    
+    }
+
+    .apresentacao__conteudo__cima {
+        display: block;
+        width: 100vw;
+        margin-top: 2rem;
+        margin: auto;
+        justify-content: center;
+        text-align: center;      
+        align-items: center;
+        margin-bottom: 2em;
+           
+    }
+
+    .apresentacao_conteudo_baixo {
+        font-size: 17px;
+        
+        
+
+    }
+
+    .apresenta__celular__titulo {
+        text-align: center;
+        margin-bottom: 100px;
+        width: 100vw;
+        
+        
+      
+        
+    }
+
+    .botoes{
+        
+        margin-bottom: 1rem;
+        width: 50vw;
+        
+        
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apresentacao__conteudo__botoes {
+        display: block;
+        width: 100vw; 
+        align-items: center;
+        justify-content: center;      
+    }
+
+    .baixe {
+        
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        
+        
+
+    }
+
+    .apresentacao__conteudo__cima {
+       margin-top: 2rem;
+        font-size: 20px;
+        width: 50vw;  
+        
+    }
+
+    .apresentacao_conteudo_aviso {
+        margin-bottom: 2rem;
+        
+    }
+
+    .apresenta__celular {
+        margin-top: 2rem;
+        width: 50vw;
+        
+    }
+
+    .segunda__parte__texto {
+        width: 100vw;
+        height: 50vw;
+        font-size: 17px;
+    }
+
+    .terceira__parte {
+        display: block;
+        margin: auto;
+        padding-bottom: 35%;
+    }
+
+    .terceira__parte__imagem {
+        width: 0%;
+    }
+
+    .terceira__parte__main {
+        display: block;
+        text-align: center;
+        align-items: center;
+        font-size: 32px;
+        width: 100vw; 
+        
+     
+
+    }
+
+
+    .lista__bolas {
+        display: block;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .circulo {
+
+        width: 300px;
+        height: 60px;
+        border-radius: 7%;
+        background-color: #2F3848;
+        border: 3px solid #00E676;  
+         
+        margin: auto;
+        margin-bottom: 20px;
+        justify-content: center;
+        text-align: center;   
+        align-items: center;    
+    }
+
+    .terceira__parte__sub {
+        font-size: 20px;
+    }
+
+    .texto__quarta {
+        font-size: 40px;
+        padding-top: 10%;
+    }
+
+    .botoes2 {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+
+   
+
+
+
+
+    
+
+   
+
+}
+
