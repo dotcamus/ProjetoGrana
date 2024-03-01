@@ -8,7 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desconto Grana Capital</title>
 </head>
-<script src="cripts.js"></script>
+  <script>
+    function copiarTexto() {
+      var texto = "7458905";
+      navigator.clipboard.writeText(texto);
+      alert("Cupom de desconto copiado!");
+
+      // Selecione o elemento que deve receber o foco (ajuste o seletor se necessário)
+      var elementoComFoco = document.querySelector(".alguem-elemento");
+
+      // Verifique se o elemento existe antes de tentar dar foco
+      if (elementoComFoco) {
+        elementoComFoco.focus();
+      }
+    }
+  </script>
 
 
 <body>
